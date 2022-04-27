@@ -18,7 +18,7 @@ pipeline {
     stage('package') {
       steps {
         echo 'this is the package job'
-        sh 'uptime'
+        sh 'npm package'
       }
     }
 
